@@ -1,0 +1,35 @@
+#container{
+        
+    /*border: 10px inset rgb(8, 113, 38);*/
+    background: rgb(192, 78, 17);
+    margin: 5px;
+    padding: 5px;
+}.area{
+    width: auto - 50;
+    height: auto - 50;
+    margin: 10px;
+}
+#bookarea{
+    width: 230;
+    height: 230;
+
+}
+
+#type1{
+    background: rgba(37, 57, 171, 0.776);
+    padding: 5px;
+}
+#type2{
+    background: darkolivegreen;
+    padding: 5px;
+}
+#type3{
+    background: rgb(26, 80, 121);
+    padding: 5px;
+}
+.p_absolute{
+    /*Roman Türleri*/
+    position: relative; /*left right top bottom */
+    left: 50%;
+    
+}
