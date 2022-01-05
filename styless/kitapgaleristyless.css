@@ -1,9 +1,89 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+li {
+    display: inline;
+    float: left;
+    margin: 2px;
+}
+
+li a {
+    display: block;
+    background: #23242B;
+    min-width: 160px;
+    color: #00E5FF;
+    list-style: none;
+    text-decoration: none;
+    line-height: 80px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+li a:hover {
+    background: #42A5F5;
+}
+
+li:hover ul a {
+    background: #A89F9F;
+    color: black;
+    line-height: 35px;
+}
+
+li:hover ul a:hover {
+    background: #80DEEA;
+    color: aliceblue;
+}
+
+li ul li {
+    display: block;
+    float: none;
+}
+
+.hidden {
+    display: none;
+}
+
+ul li a:hover+.hidden,
+.hidden:hover {
+    display: block;
+}
+
+li:hover a {
+    background: #0277BD;
+    color: aliceblue;
+}
+#main{
+        
+    /*border: 10px inset rgb(8, 113, 38);*/
+    background: rgb(7, 14, 67);
+    margin: 10px;
+    padding: 10px;
+}.area{
+    width: auto - 50;
+    height: auto - 50;
+    margin: 10px;
+}
+#menu{
+        
+    /*border: 10px inset rgb(8, 113, 38);*/
+    background: rgb(7, 14, 67);
+    margin: 1px;
+    padding: 1px;
+}.area{
+    width: auto ;
+    height: auto ;
+    margin: 1px;
+}
 #container{
         
     /*border: 10px inset rgb(8, 113, 38);*/
-    background: rgb(192, 78, 17);
-    margin: 5px;
-    padding: 5px;
+    background: rgb(7, 14, 67);
+    margin: 50px;
+    padding: 50px;
 }.area{
     width: auto - 50;
     height: auto - 50;
@@ -16,15 +96,15 @@
 }
 
 #type1{
-    background: rgba(37, 57, 171, 0.776);
+    background: rgba(101, 79, 154, 0.495);
     padding: 5px;
 }
 #type2{
-    background: darkolivegreen;
+    background: rgb(108, 157, 25);
     padding: 5px;
 }
 #type3{
-    background: rgb(26, 80, 121);
+    background: rgb(21, 100, 160);
     padding: 5px;
 }
 .p_absolute{
