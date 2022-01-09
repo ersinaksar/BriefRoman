@@ -1,0 +1,376 @@
+<!doctype html>
+<html>
+<head>
+	
+<meta charset="utf-8">
+<title>Welcome To BriefRoman</title>
+	<style>
+		body{background-image: url("arkaplan.jpeg");}
+		
+		ul {
+			list-style: none;
+			margin: 0;
+			position: absolute;
+			padding: 0;
+		}
+		
+		li {
+			display: inline-block;
+			float: left;
+			margin : 0;
+		}
+	
+		li a {
+			display: block;
+			background: hsla(60,27%,92%,0.93);
+			color: hsla(0,59%,34%,0.94);
+			min-width: 160px;
+			list-style: none;
+			text-decoration: none;
+			line-height: 60px;
+			text-align: center;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+		}
+		li a:hover {
+			background: hsla(359,68%,25%,1.00);
+		}
+		
+		li:hover ul a {
+			background:#F2F2F2;
+			color: #580A0C;
+			line-height: 35px;	
+		}
+		
+		li:hover ul a:hover {
+			background: #580A0C;
+			color: aliceblue;}
+		
+		li ul li {
+			display: block;
+			float: none;
+		}
+		
+		.list1{
+			display: none;	
+		}
+		
+		.list2{
+			display: none;
+		}
+		
+		.list3{
+			display: none;
+		}
+		
+		.list4{
+			display: none;
+		}
+		
+		ul li a:hover+ .list1, .list1:hover{
+			display: block;
+		}
+		
+		ul li a:hover+ .list2, .list2:hover{
+			display: block;
+		}
+		
+		ul li a:hover+ .list3, .list3:hover{
+			display: block;
+		}
+		
+		ul li a:hover+ .list4,.list4:hover{
+			display:block;
+		}
+		
+		li:hover a{
+			background: #580A0C;
+			color: cornsilk;	
+		}
+		
+		input {
+			width: 40%;
+			box-sizing: border-box;
+			border-radius: 20px;
+			border: 1px  #A3A3A3;
+            font-size: 15px;
+            background-color:hsla(60,27%,92%,0.93); 
+			background-position: 80px 80px; 
+			padding: 30px 50px 12px 20px;
+			float: right;
+		}
+		
+		.button{
+			background-color: hsla(60,27%,92%,0.93);
+			border: 1px hidden;
+			color: #580A0C;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+            font-size: 15px;
+            margin: 0px 60px 60px 10px ;
+            cursor: pointer;
+			float: right;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			padding: 18px 50px 20px 50px;
+			border-radius: 20px;
+		}
+		
+		.button:hover{
+			background-color:#580A0C;
+			color: cornsilk;
+		}
+		
+		#birinci{
+			background: hsla(60,27%,92%,0.93);
+			
+		}
+		
+		.area{
+			width:auto;
+			height:auto;
+			margin: 150px 80px 20px 50px;
+			display: inline-block;
+		}
+		
+		#ikinci{
+			background: hsla(60,27%,92%,0.93);
+			
+		}
+		.area{
+			width:auto;
+			height:auto;
+			margin: 150px 80px 20px 50px;
+			display: inline-block;	
+}
+		
+		#ucuncu{
+			background:hsla(60,27%,92%,0.93);
+						
+		}
+		
+		#dorduncu{
+			background:hsla(60,27%,92%,0.93);
+				
+		}
+		
+		.gallery-item{
+			border: 1px solid #ccc;
+			display: inline-block;
+			
+		}
+		
+		.gallery-item:hover{
+			cursor: pointer;
+			border: 3px solid black;
+			box-shadow: 6px 6px 8px 5px;
+		}
+		
+		.gallery-item img{
+			width: 50%;
+			height: 200px;
+			display: inline-block;
+			
+				
+		}
+		
+		.description {
+			text-align:center;
+			padding: 0px;
+			display:inline-block;
+		}
+		
+		h1{
+			text-align: center;
+			font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color:#580A0C;
+		}
+	
+			.footer { 
+			background:hsla(60,27%,92%,0.93);
+			width:96%; 
+			height:80px;
+			float:left;
+		    margin:0px;
+			padding:30px;
+		}
+		
+		#box ul {
+			list-style-type:none;
+			margin:20px 0;
+			padding:0px;
+		}
+		
+		#box ul li {
+			float:left;
+			font-size:17px; 
+			color:#580A0C;
+		}
+		
+		
+		#box li {
+			float:left;
+			clear:none;
+			margin-right:20px;}
+
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li><a href="#">Kampanyalar</a>
+			<ul class="list1">
+				<li><a href="#">Pollyanna</a></li>
+				<li><a href="#">İntibah</a></li>
+				<li><a href="#">Güliver'in Gezileri</a></li>
+				<li><a href="#">Suç ve Ceza</a></li>
+				<li><a href="#">Beyazdiş</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Çok Satanlar</a>
+			<ul class="list2">
+				<li><a href="#">Oliver Twist</a></li>
+				<li><a href="#">Anna Karenina</a></li>
+				<li><a href="#">Monte Kristo Kontu</a></li>
+				<li><a href="#">Notre Dame'ın Kamburu</a></li>
+				<li><a href="#">Dünyanın Merkezine Yolculuk</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Yeni Çıkanlar</a>
+			<ul class="list3">
+				<li><a href="#">İşte Böyle Buyurdu Zerdüşt</a></li>
+				<li><a href="#">Savaş ve Barış</a></li>
+				<li><a href="#">Moby Dick</a></li>
+				<li><a href="#">Babalar ve Oğullar</a></li>
+				<li><a href="#">Ölü Canlar</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Kategoriler</a>
+			<ul class="list4">
+				<li><a href="#">Ana</a></li>
+				<li><a href="#">Tom Sawyer</a></li>
+				<li><a href="#">Robinson Crusoe</a></li>
+				<li><a href="#">Sefiller</a></li>
+				<li><a href="#">Madam Bovary</a></li>
+			</ul>
+		</li>
+	</ul>
+	
+	
+	<form>
+		
+		<input type="text" name="search" placeholder="Arama..">
+	</form>
+	
+	<a href="Giriş sayfası.html"><button  class="button">Üye Ol</button></a>
+	
+	
+	<div id="birinci" class="area">
+		<h1>KAMPANYALAR</h1>
+		<div class="gallery-item"><img src="Pollyanna.jpg" alt="">
+			<div class="description">Pollyanna</div>
+		</div>
+		
+		<div class="gallery-item"><img src="İntibah.jpg" alt="">
+			<div class="description">İntibah</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Güliver'in Gezileri.jpg" alt="">
+			<div class="description">Güliver'in Gezileri</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Suç ve Ceze.jpg" alt="">
+			<div class="description">Suç ve Ceza</div>
+		</div>
+		
+		<div class="gallery-item"><img src="beyazdiş.jpg" alt="">
+			<div class="description">Beyazdiş</div>
+		</div>
+	</div>
+	
+	<div id="ikinci" class="area">
+		<h1>ÇOK SATANLAR</h1>
+		<div class="gallery-item"><img src="Oliver Twist.jpg" alt="">
+			<div class="description">Oliver Twist</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Anna Karenina.jpg" alt="">
+			<div class="description">Anna Karenina</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Monte Kristo Kontu.jpg" alt="">
+			<div class="description">Monte Kristo Kontu</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Notre Dame'ın Kamburu.jpg" alt="">
+			<div class="description">Notre Dame'ın Kamburu</div>
+		</div>
+		
+		
+	</div>
+	
+	<div id="ucuncu" class="area">
+		<h1>YENİ ÇIKANLAR</h1>
+		<div class="gallery-item"><img src="İşte Böyle Buyurdu Zerdüşt.jpg" alt="">
+			<div class="description">İşte Böyle Buyurdu Zerdüşt</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Savaş ve Barış.jpeg" alt="">
+			<div class="description">Savaş ve Barış</div>
+		</div>
+		
+		
+		<div class="gallery-item"><img src="Moby Dick.jpg" alt="">
+			<div class="description">Moby Dick</div>
+		</div>
+			
+		
+		<div class="gallery-item"><img src="Babalar ve Oğullar.jpg" alt="">
+			<div class="description">Babalar ve Oğullar</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Ölü Canlar.jpg" alt="">
+			<div class="description">Ölü Canlar</div>
+		</div>
+	</div>
+	
+	<div id="dorduncu" class="area">
+		<h1>KATEGORİLER</h1>
+		<div class="gallery-item"><img src="Ana.jpg" alt="">
+			<div class="description">Ana</div>
+		</div>
+	
+		<div class="gallery-item"><img src="Tom Sawyer.jpg" alt="">
+			<div class="description">Tom Sawyer</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Robinson Crusoe.jpg" alt="">
+			<div class="description">Robinson Crusoe</div>
+		</div>
+		 
+		<div class="gallery-item"><img src="Sefiller.jpg" alt="">
+			<div class="description">Sefiller</div>
+		</div>
+		
+		<div class="gallery-item"><img src="Madam Bovary.jpg" alt="">
+			<div class="description">Madam Bovary</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="footer">
+		<div class="footer-container">
+			<div id="box">
+				<ul>
+					<li>Kampanyalar</li>
+					<li>Çok Satanlar</li>
+					<li>Yeni Çıkanlar</li>
+					<li>Kategoriler</li>
+					<li>BriefRoman@gmail.com</li>
+				</ul>		
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
