@@ -59,7 +59,7 @@ li:hover a {
 #main{
         
     /*border: 10px inset rgb(8, 113, 38);*/
-    background: rgba(191, 186, 126, 0.228);
+    
     margin: 10px;
     padding: 10px;
 }.area{
@@ -70,12 +70,9 @@ li:hover a {
 #menu{
         
     /*border: 10px inset rgb(8, 113, 38);*/
-    background: rgba(7, 39, 67, 0.262);
+    
     margin: 1px;
     padding: 1px;
-
-    
-    
 }.area{
     width: auto ;
     height: auto ;
@@ -84,7 +81,7 @@ li:hover a {
 #container{
         
     /*border: 10px inset rgb(8, 113, 38);*/
-    background: rgba(7, 39, 67, 0);
+    
     margin: 50px;
     padding: 50px;
 }.area{
@@ -100,32 +97,15 @@ li:hover a {
 
 #type1{
     background: rgba(101, 79, 154, 0.495);
-    padding: 20px;
-    
-    
-    background-color: rgba(126, 34, 78, 0.392);
-    color: rgb(4, 0, 0);
-    border: 15px solid rgba(31, 182, 124, 0.303);
-    border-radius: 50px;
-    
+    padding: 5px;
 }
 #type2{
-    
-    padding: 20px;
-
-    background-color: rgba(126, 34, 78, 0.392);
-    color: rgb(4, 0, 0);
-    border: 15px solid  rgba(109, 157, 25, 0.30);
-    border-radius: 50px;
+    background: rgb(108, 157, 25);
+    padding: 5px;
 }
 #type3{
-    
-    padding: 20px;
-
-    background-color: rgba(126, 34, 78, 0.392);
-    color: rgb(4, 0, 0);
-    border: 15px solid  rgba(21, 100, 160, 0.30);
-    border-radius: 50px;
+    background: rgb(21, 100, 160);
+    padding: 5px;
 }
 .p_absolute{
     /*Roman Türleri*/
